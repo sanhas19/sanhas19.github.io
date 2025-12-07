@@ -344,10 +344,33 @@ footer {
     color: #666;
 }
 
+footer p {
+    color: #666;
+    font-size: 1rem;
+}
+
+footer h1 {
+    color: var(--bg);
+    font-size: 1.5rem;
+}
+
+footer h2 {
+    margin-top: 50px;
+    color: #666;
+    font-size: 1rem;
+}
+
+footer h3 {
+    color: var(--bg);
+    font-size: 2rem;
+    font-family: 'Sacramento';
+}
+
 footer a {
     color: var(--bg);
     font-weight: bold;
     text-decoration: none;
+    margin-bottom: 1.5rem;
 }
 
 footer a:hover {
